@@ -1,3 +1,5 @@
+alert('PORRA');
+
 /* 
  * Copyright 2017, Emanuel Rabina (http://www.ultraq.net.nz/)
  * 
@@ -43,6 +45,7 @@ export function flatten(array) {
  * @return {Array} An array encompassing the given range.
  */
 export function range(start, end, step = 1) {
+	console.log('XABLAU');
 	return Array.apply(0, Array(Math.ceil((end - start) / step))).map((empty, index) => index * step + start);
 }
 
